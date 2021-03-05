@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xzoZgH1jEeuwPepex-aN2w" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_6vmO8H1jEeuwPepex-aN2w" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6voEIH1jEeuwPepex-aN2w" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6voEIX1jEeuwPepex-aN2w" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_JIMFIH1kEeuwPepex-aN2w" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_JIMsMH1kEeuwPepex-aN2w" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_JIMsMX1kEeuwPepex-aN2w" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_JIMsMn1kEeuwPepex-aN2w" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_JINTQH1kEeuwPepex-aN2w" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_O1zvQH1kEeuwPepex-aN2w" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_UiiBgH1kEeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Problema1.uml#_O1ls0H1kEeuwPepex-aN2w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_O1zvQX1kEeuwPepex-aN2w"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_VGYVcH1kEeuwPepex-aN2w" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_aMkMIH1kEeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Problema1.uml#_VGK6EH1kEeuwPepex-aN2w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_VGYVcX1kEeuwPepex-aN2w"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_bEZMAH1kEeuwPepex-aN2w" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_d9DbMH1kEeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Problema1.uml#_bEOM4H1kEeuwPepex-aN2w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_bEZMAX1kEeuwPepex-aN2w"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_eg-noH1kEeuwPepex-aN2w" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_iTOKMH1kEeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Problema1.uml#_egzBcH1kEeuwPepex-aN2w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eg-noX1kEeuwPepex-aN2w"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_jC4FgH1kEeuwPepex-aN2w" type="Property_ClassAttributeLabel">
+            <styles xmi:type="notation:StringListValueStyle" xmi:id="_sMqUgH1kEeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>visibility</stringListValue>
+              <stringListValue>name</stringListValue>
+              <stringListValue>type</stringListValue>
+              <stringListValue>derived</stringListValue>
+            </styles>
+            <element xmi:type="uml:Property" href="Problema1.uml#_jCsfUH1kEeuwPepex-aN2w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jC4skH1kEeuwPepex-aN2w"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_JINTQX1kEeuwPepex-aN2w"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_JINTQn1kEeuwPepex-aN2w"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_JINTQ31kEeuwPepex-aN2w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JINTRH1kEeuwPepex-aN2w"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_JINTRX1kEeuwPepex-aN2w" type="Class_OperationCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_s3mH4H1kEeuwPepex-aN2w" type="Operation_ClassOperationLabel">
+            <element xmi:type="uml:Operation" href="Problema1.uml#_s3ZTkH1kEeuwPepex-aN2w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s3mH4X1kEeuwPepex-aN2w"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_JINTRn1kEeuwPepex-aN2w"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_JINTR31kEeuwPepex-aN2w"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_JINTSH1kEeuwPepex-aN2w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JINTSX1kEeuwPepex-aN2w"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_JINTSn1kEeuwPepex-aN2w" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_JINTS31kEeuwPepex-aN2w"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_JINTTH1kEeuwPepex-aN2w"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_JINTTX1kEeuwPepex-aN2w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JINTTn1kEeuwPepex-aN2w"/>
+        </children>
+        <element xmi:type="uml:Class" href="Problema1.uml#_JIF-gH1kEeuwPepex-aN2w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JIMFIX1kEeuwPepex-aN2w" x="14" y="12" width="281" height="181"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6voEIn1jEeuwPepex-aN2w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6vorMH1jEeuwPepex-aN2w"/>
+    </children>
+    <element xmi:type="uml:Package" href="Problema1.uml#_6vdFAH1jEeuwPepex-aN2w"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6vmO8X1jEeuwPepex-aN2w" x="20" y="20" width="341" height="261"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_xzoZgX1jEeuwPepex-aN2w" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xzoZgn1jEeuwPepex-aN2w"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_xzoZg31jEeuwPepex-aN2w" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Problema1.uml#_xnxHwH1jEeuwPepex-aN2w"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Problema1.uml#_xnxHwH1jEeuwPepex-aN2w"/>
+</notation:Diagram>
