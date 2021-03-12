@@ -51,6 +51,7 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_jC4FgH1kEeuwPepex-aN2w" type="Property_ClassAttributeLabel">
             <styles xmi:type="notation:StringListValueStyle" xmi:id="_sMqUgH1kEeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>multiplicity</stringListValue>
               <stringListValue>visibility</stringListValue>
               <stringListValue>name</stringListValue>
               <stringListValue>type</stringListValue>

@@ -1,51 +1,61 @@
 package clases.poo.ito;
 
-import java.util.HashSet;
+import java.util.ArrayList;
 
 public class Fruta {
 
 	private String nombre = "";
 	private float extension = 0F;
-	private HashSet<String> tiempoCosecha = new HashSet<String>();
-	private HashSet<Float> cantCosechaxtiempo = new HashSet<Float>();
+	private ArrayList<String> tiempoCosecha = new ArrayList<String>();
+	private ArrayList<Float>cantCosechaxtiempo=new ArrayList<Float>();
 	private float costoPromedio = 0F;
 	private float precioVentaProm = 0F;
 
+	
 	public Fruta() {
 		super();
 	}
 	
-	public Fruta(String nombre, float extension, HashSet<String> tiempoCosecha, HashSet<Float> cantCosechaxtiempo,
-			float costoPromedio, float precioVentaProm) {
+	public Fruta(String nombre, float extension, float costoPromedio, float precioVentaProm) {
 		super();
 		this.nombre = nombre;
 		this.extension = extension;
-		this.tiempoCosecha = tiempoCosecha;
-		this.cantCosechaxtiempo = cantCosechaxtiempo;
 		this.costoPromedio = costoPromedio;
 		this.precioVentaProm = precioVentaProm;
 	}
 
 	//=======================================
 	public void agregarPeriodo(String periodo, float cantEstimada) {
+		this.tiempoCosecha.add(periodo);
+		this.cantCosechaxtiempo.add(cantEstimada);
 	}
 
-	//=======================================
 	public boolean eliminarPeriodo(int i) {
+		i=i-1;
 		boolean eliminarPeriodo = false;
+		if(i>=0 && i<=this.tiempoCosecha.size()) {
+			this.tiempoCosecha.remove(i);
+			this.cantCosechaxtiempo.remove(i);
+			eliminarPeriodo=true;
+		}
 		return eliminarPeriodo;
 	}
 
 	//=======================================
 	public float costoPeriodo(int i) {
+		i=i-1;
 		float costoPeriodo = 0F;
+		if(i>=0 && i<=this.tiempoCosecha.size())
+			costoPeriodo=this.cantCosechaxtiempo.get(i)*this.costoPromedio;
 		return costoPeriodo;
-
 	}
 
 	//=======================================
-	public float ganancia(int i) {	
+	public float ganancia(int i) {
+		i=i-1;
 		float ganancia = 0F;
+		if(i>=0 && i<=this.tiempoCosecha.size())
+			ganancia=this.cantCosechaxtiempo.get(i)*this.precioVentaProm;
 		return ganancia;
 	}
 
@@ -70,12 +80,12 @@ public class Fruta {
 	}
 
 	//=======================================
-	public HashSet<String> getTiempoCosecha() {
+	public ArrayList<String> getTiempoCosecha() {
 		return this.tiempoCosecha;
 	}
 
 	//=======================================
-	public HashSet<Float> getCantCosechaxtiempo() {
+	public ArrayList<Float> getCantCosechaxtiempo() {
 		return this.cantCosechaxtiempo;
 	}
 

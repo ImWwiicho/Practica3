@@ -31,6 +31,7 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_9iAccH10EeuwPepex-aN2w" type="Property_ClassAttributeLabel">
             <styles xmi:type="notation:StringListValueStyle" xmi:id="_CRDlgH11EeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>multiplicity</stringListValue>
               <stringListValue>visibility</stringListValue>
               <stringListValue>name</stringListValue>
               <stringListValue>type</stringListValue>
@@ -41,6 +42,7 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_ENuGgH11EeuwPepex-aN2w" type="Property_ClassAttributeLabel">
             <styles xmi:type="notation:StringListValueStyle" xmi:id="_JNArAH11EeuwPepex-aN2w" name="maskLabel">
+              <stringListValue>multiplicity</stringListValue>
               <stringListValue>visibility</stringListValue>
               <stringListValue>name</stringListValue>
               <stringListValue>type</stringListValue>

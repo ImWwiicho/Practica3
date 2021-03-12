@@ -14,18 +14,18 @@ public class calzado {
 		super();
 	}
 	
-	public calzado(int clave, String material, String troquel, int cantProdxDia, HashSet<String> colores) {
+	public calzado(int clave, String material, String troquel, int cantProdxDia) {
 		super();
 		this.clave = clave;
 		this.material = material;
 		this.troquel = troquel;
 		this.cantProdxDia = cantProdxDia;
-		this.colores = colores;
 	}
 
 	//=============================================
 	public float costoxLote(float costoxUnidad) {
 		float costoxLote = 0F;
+		costoxLote=costoxUnidad*this.cantProdxDia;
 		return costoxLote;
 	}
 	
@@ -67,6 +67,16 @@ public class calzado {
 	//=============================================
 	public void setCantProdxDia(int newCantProdxDia) {
 		this.cantProdxDia = newCantProdxDia;
+	}
+	
+	//=============================================
+	public void addColores(String colores){
+		this.colores.add(colores);	
+	}
+	
+	//=============================================
+	public void delColores(String colores){
+		this.colores.remove(colores);
 	}
 
 	//=============================================

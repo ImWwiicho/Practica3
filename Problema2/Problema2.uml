@@ -11,11 +11,11 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_5AZScH10EeuwPepex-aN2w" name="extension" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_9h35kH10EeuwPepex-aN2w" name="tiempoCosecha" visibility="private">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9h35kH10EeuwPepex-aN2w" name="tiempoCosecha" visibility="private" isUnique="false">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cy8KkH11EeuwPepex-aN2w" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ENljoH11EeuwPepex-aN2w" name="cantCosechaxtiempo" visibility="private">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ENljoH11EeuwPepex-aN2w" name="cantCosechaxtiempo" visibility="private" isUnique="false">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ig3WsH11EeuwPepex-aN2w" value="*"/>
       </ownedAttribute>
