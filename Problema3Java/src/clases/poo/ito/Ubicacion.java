@@ -65,7 +65,7 @@ public class Ubicacion {
 	@Override
 	public String toString() {
 		return "Ubicacion [longitud=" + longitud + ", latitud=" + latitud + ", periodo=" + periodo + ", distancia="
-				+ distancia + medida + "]";
+				+ distancia + " " +medida + "]";
 	}
 
 }
